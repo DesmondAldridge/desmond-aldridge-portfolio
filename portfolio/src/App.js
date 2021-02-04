@@ -14,7 +14,7 @@ function App() {
       <div className='app_itemsContainer'>
         <Item
           title='Rubber Ducky CLI'
-          desc="CLI to performer the popular practice of 'rubber duck debugging' within the terminal, replacing the need for a physical rubber ducky by one's computer."
+          desc="CLI to perform the popular practice of 'rubber duck debugging' within the terminal, replacing the need for a physical rubber ducky by one's computer."
           descLink=''
           backgroundImg={DuckyCLI}
           leftBtnTxt='CODE'
@@ -26,7 +26,7 @@ function App() {
         />
         <Item
           title='Daily Planner'
-          desc='Daily planner designed for a standard work day. Allows you to write and save entries for any or all of the 8 time slots available (9am - 5pm). The current hour is always highlighted and distinct from both upcoming and previous entries.'
+          desc='Scheduling app designed for a standard work day. It allows you to write and save entries for 8 available time slots (9 a.m. - 5 p.m.). The current hour is always highlighted and distinct from both upcoming and previous entries.'
           descLink=''
           backgroundImg={DailyPlanner}
           leftBtnTxt='CODE'
@@ -37,7 +37,7 @@ function App() {
         />
         <Item
           title='Readme Generator'
-          desc='CLI that enerates a README file based on user input.'
+          desc='CLI that generates a README file based on user input.'
           descLink=''
           backgroundImg={ReadmeGenerator}
           leftBtnTxt='CODE'

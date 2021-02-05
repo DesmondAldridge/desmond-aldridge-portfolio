@@ -10,10 +10,7 @@
              </div>
 
              <div className="header_center">
-                 <p>Rubber Duck CLI</p>
-                 <p>Daily Planner</p>
-                 <p>Readme Generator</p>
-                 <p>Trendr</p>
+                 <p>Desmond Aldridge | Full Stack Web Developer</p>
              </div>
 
              <div className="header_right">

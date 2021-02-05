@@ -5,25 +5,27 @@
     position: fixed;
     width: 100vw;
     top: 0;
-    margin: 15px;
+    /* margin: 15px; */
     margin-top: 15px;
     z-index: 100
 }
 
 .header_logo{
-    height: 24px;
-    width: 100px;
+    /* height: 24px;
+    width: 100px; */
     margin-top: 7px;
+    margin-left: 25px
 }
 
 .header_center{
     flex: 1;
     display: flex;
     justify-content: center;
+    margin: 10px;
 }
 
 .header_center>p{
-    margin: 10px;
+   
     text-transform: uppercase;
 
 }
@@ -32,6 +34,7 @@
     display: flex;
     justify-content: flex-end;
     text-transform: uppercase;
+    margin-right: 30px
 }
 
 .header_right>p{

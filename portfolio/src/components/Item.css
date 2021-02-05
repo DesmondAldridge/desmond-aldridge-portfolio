@@ -24,6 +24,7 @@
   color: #393c41;
   align-items: center;
   flex: 1;
+  margin-top: 60%
 }
 
 .item_textDesc {
@@ -43,3 +44,4 @@
     margin-top: 3%;
     justify-content: center;
 }
+

@@ -7,7 +7,7 @@ import bg2 from './assets/bg2.jpg';
 import bg3 from './assets/bg3.jpg';
 import bg4 from './assets/bg4.jpg';
 
-import duckyCLI from './assets/ducky-cli.png'
+import duckyCLI from './assets/ducky-cli.png';
 
 // import DuckyCLI from './assets/desktop-with-ducky.png';
 // import DailyPlanner from './assets/daily-planner.png';
@@ -28,8 +28,6 @@ function App() {
           leftBtnLink='https://github.com/DesmondAldridge/rubber-ducky-cli'
           rightBtnTxt='DEMO'
           rightBtnLink='https://raw.githubusercontent.com/DesmondAldridge/rubber-ducky-cli/main/img/title-card.png'
-          twoButtons='true'
-          first
         />
         <Item
           title='Daily Planner'
@@ -40,7 +38,6 @@ function App() {
           leftBtnLink='https://github.com/DesmondAldridge/work-day-scheduler'
           rightBtnTxt='DEMO'
           rightBtnLink='https://desmondaldridge.github.io/work-day-scheduler/'
-          twoButtons='true'
         />
         <Item
           title='Readme Generator'
@@ -51,7 +48,6 @@ function App() {
           leftBtnLink='https://github.com/DesmondAldridge/readme-generator'
           rightBtnTxt='DEMO'
           rightBtnLink='https://drive.google.com/file/d/1QuzsCEA-r8YG5HxdSLXLc8NUn9di7rtY/view'
-          twoButtons='true'
         />
         <Item
           title='Trendr'
@@ -62,7 +58,6 @@ function App() {
           leftBtnLink='https://github.com/paulmorales7/Trendr'
           rightBtnTxt='DEMO'
           rightBtnLink='https://trendr-react.herokuapp.com/'
-          twoButtons='true'
         />
       </div>
     </div>

@@ -2,12 +2,12 @@ import './App.css';
 import Header from './components/Header';
 import Item from './components/Item';
 
-import bg1 from './assets/bg1.jpg';
-import bg2 from './assets/bg2.jpg';
-import bg3 from './assets/bg3.jpg';
-import bg4 from './assets/bg4.jpg';
+import bg1 from './assets/images/bg1.jpg';
+import bg2 from './assets/images/bg2.jpg';
+import bg3 from './assets/images/bg3.jpg';
+import bg4 from './assets/images/bg4.jpg';
 
-import duckyCLI from './assets/ducky-cli.png';
+import duckyCLI from './assets/images/ducky-cli.png';
 
 // import DuckyCLI from './assets/desktop-with-ducky.png';
 // import DailyPlanner from './assets/daily-planner.png';

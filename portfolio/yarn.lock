@@ -10836,6 +10836,11 @@ type-is@~1.6.17, type-is@~1.6.18:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
+type.js@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/type.js/-/type.js-0.0.1.tgz#566af8056e004a8e77fe75bdc4a09e8db6dfcd01"
+  integrity sha1-Vmr4BW4ASo53/nW9xKCejbbfzQE=
+
 type@^1.0.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/type/-/type-1.2.0.tgz#848dd7698dafa3e54a6c479e759c4bc3f18847a0"

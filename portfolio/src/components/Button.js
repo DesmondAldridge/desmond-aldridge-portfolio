@@ -1,10 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-const Button = ({ imp, text, link }) => {
+const Button = ({ text, link }) => {
   return (
     <div className={'button'}>
-      <a href={link}>{text}</a>
+      <a href={link} target="_blank" rel="noreferrer noopener">{text}</a>
     </div>
   );
 };

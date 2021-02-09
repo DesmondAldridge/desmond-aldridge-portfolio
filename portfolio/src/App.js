@@ -21,13 +21,14 @@ function App() {
       <div className='app_itemsContainer'>
         <Item
           title='Rubber Ducky CLI'
+          img={duckyCLI}
           desc="CLI to perform the popular practice of 'rubber duck debugging' within the terminal, replacing the need for a physical rubber ducky by one's computer."
           descLink=''
           backgroundImg={bg1}
-          leftBtnTxt='CODE'
+          leftBtnTxt='GITHUB'
           leftBtnLink='https://github.com/DesmondAldridge/rubber-ducky-cli'
-          rightBtnTxt='DEMO'
-          rightBtnLink='https://raw.githubusercontent.com/DesmondAldridge/rubber-ducky-cli/main/img/title-card.png'
+          rightBtnTxt='README'
+          rightBtnLink='https://github.com/DesmondAldridge/rubber-ducky-cli/blob/main/README.md#rubber-ducky-cli---'
         />
         <Item
           title='Daily Planner'

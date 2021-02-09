@@ -7,6 +7,7 @@ import './Item.css';
 
 const Item = ({
   title,
+  img,
   desc,
   backgroundImg,
   leftBtnTxt,
@@ -22,7 +23,9 @@ const Item = ({
       }}
     >
       <div className='item_container'>
+      <img className='img' src={img} alt=' '/>
         <div className='item_text'>
+        
           <p>{title}</p>
           <div className='item_textDesc'>
             <p>{desc}</p>

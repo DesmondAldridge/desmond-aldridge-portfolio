@@ -17,8 +17,8 @@ const Header = () => {
       </div>
 
       <div className='header_right'>
-        <p>GitHub</p>
-        <p>Email</p>
+        <a className="btn" href="mailto:desmondaldridge@gmail.com">EMAIL</a>
+        <a className="btn" href="https://docs.google.com/document/d/11TvrK4z_wtDYSFcEqTLWdhMPWq4hBTMbe75uTrqaekM/edit?usp=sharing" target="_blank" rel="noreferrer noopener">RESUME</a>
       </div>
     </div>
   );

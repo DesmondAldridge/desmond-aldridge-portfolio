@@ -1,0 +1,83 @@
+.opening {
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+
+.opening_container {
+  /* margin-top: 5%; */
+  width: 44vw;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.left_container {
+  margin-top: 8%;
+  width: 58vw;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: left; */
+  /* justify-items: left; */
+}
+
+.opening_text {
+  display: flex;
+  width: 30vw;
+  flex-direction: column;
+  font-size: 30px;
+  color: #393c41;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+
+  margin-top: 43.5%;
+
+  transform: skew(-2.5deg, -.4deg);
+  /* transform: rotate(1deg); */
+  /* margin-left: 3%; */
+}
+
+.opening_textDesc {
+  margin-top: 3%;
+  font-weight: 200;
+  font-size: 20px;
+  /* margin-left: 3%; */
+  /* align-items: center;
+  justify-content: center;
+  justify-items: center; */
+}
+
+.list_header {
+  margin-top: 0.5%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.frontend_list {
+  margin-left: 12%;
+  margin-bottom: 3%;
+
+}
+.backend_list {
+  margin-left: 12%;
+  margin-bottom: 3%;
+
+}
+.tech_list {
+  margin-left: 12%;
+  margin-bottom: 3%;
+
+}
+
+.img {
+  margin-top: 17%;
+  margin-right: 6%;
+  height: 42.5vh;
+  width: 36vw;
+}

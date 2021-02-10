@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import Item from './components/Item';
+import Opening from './components/Opening';
 
 import bg1 from './assets/images/bg1.jpg';
 import bg2 from './assets/images/bg2.jpg';
@@ -19,6 +20,10 @@ function App() {
     <div className='App'>
       <Header />
       <div className='app_itemsContainer'>
+      <Opening
+          backgroundImg={bg4}
+          
+        />
         <Item
           title='Rubber Ducky CLI'
           img={duckyCLI}

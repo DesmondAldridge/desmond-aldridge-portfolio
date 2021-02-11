@@ -17,11 +17,13 @@ const Header = () => {
       </div>
 
       <div className='header_right'>
-        <a className="btn" href="mailto:desmondaldridge@gmail.com">EMAIL</a>
+        <a className="btn" href="mailto:desmondaldridge@gmail.com" target="_blank" rel="noreferrer noopener">EMAIL</a>
         <a className="btn" href="https://docs.google.com/document/d/11TvrK4z_wtDYSFcEqTLWdhMPWq4hBTMbe75uTrqaekM/edit?usp=sharing" target="_blank" rel="noreferrer noopener">RESUME</a>
       </div>
     </div>
   );
 };
+{/* <a className="btn" href="../assets/Desmond Aldridge - 2021.pdf" download='Desmond Aldridge - 2021.pdf'>RESUME</a> */}
+
 
 export default Header;

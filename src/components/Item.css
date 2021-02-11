@@ -10,7 +10,6 @@
 }
 
 .item_container {
-  /* margin-top: 5%; */
   width: 40vw;
   display: flex;
   flex-direction: column;
@@ -18,7 +17,6 @@
 }
 
 .item_text {
-
   display: flex;
   width: 30vw;
   flex-direction: column;
@@ -31,7 +29,6 @@
 }
 
 .item_textDesc {
-
   margin-top: 10%;
   font-weight: 200;
   font-size: 20px;
@@ -40,10 +37,8 @@
 
 .item_buttons {
   margin-top: 0.5%;
-  /* margin-bottom: 5%; */
   margin-left: 15%;
   display: flex;
-  /* flex-direction: row; */
   align-items: center;
 }
 
@@ -52,9 +47,8 @@ p {
 }
 
 .img {
-  margin-top: 17%;
+  margin-top: 16%;
   margin-right: 6%;
-  height: 42.5vh;
+  height: 44vh;
   width: 36vw;
 }
-

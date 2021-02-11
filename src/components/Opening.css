@@ -35,21 +35,15 @@
   justify-content: center;
   justify-items: center;
 
-  margin-top: 43.5%;
+  margin-top: 42%;
 
-  transform: skew(-2.5deg, -.4deg);
-  /* transform: rotate(1deg); */
-  /* margin-left: 3%; */
+  transform: skew(-2.5deg, -0.15deg);
 }
 
 .opening_textDesc {
   margin-top: 3%;
   font-weight: 200;
   font-size: 20px;
-  /* margin-left: 3%; */
-  /* align-items: center;
-  justify-content: center;
-  justify-items: center; */
 }
 
 .list_header {
@@ -62,22 +56,40 @@
 .frontend_list {
   margin-left: 12%;
   margin-bottom: 3%;
-
 }
 .backend_list {
   margin-left: 12%;
   margin-bottom: 3%;
-
 }
 .tech_list {
   margin-left: 12%;
   margin-bottom: 3%;
-
 }
 
-.img {
-  margin-top: 17%;
-  margin-right: 6%;
-  height: 42.5vh;
-  width: 36vw;
+.img_and_btn {
+  transform: skew(-0.5deg, -0.15deg);
+}
+
+.contactBtn {
+  margin-top: 1.5%;
+  margin-left: 12%;
+  display: flex;
+  align-items: center;
+  /* transform: skewY(.5deg); */
+}
+
+/* .img_and_txt {
+  margin-top: 3%;
+} */
+
+.imgGif {
+  margin-top: 0.5%;
+  margin-left: 21%;
+  height: 16vh;
+  width: 8vw;
+}
+
+.instructions {
+  margin-top: 2%;
+  margin-left: 9.5%;
 }

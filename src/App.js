@@ -2,6 +2,9 @@ import './App.css';
 import Header from './components/Header';
 import Item from './components/Item';
 import Opening from './components/Opening';
+import Ducky from './components/Ducky';
+import DailyPlanner from './components/DailyPlanner';
+import ReadmeGen from './components/ReadmeGen';
 
 import bg1 from './assets/images/bg1.jpg';
 import bg2 from './assets/images/bg2.jpg';
@@ -10,6 +13,8 @@ import bg4 from './assets/images/bg4.jpg';
 import bg5 from './assets/images/bg5.jpg';
 
 import duckyCLI from './assets/images/ducky-cli.png';
+import dailyPlanner from './assets/images/daily-planner.png';
+import readmeGen from './assets/images/readme-generator.png';
 
 // import DuckyCLI from './assets/desktop-with-ducky.png';
 // import DailyPlanner from './assets/daily-planner.png';
@@ -23,9 +28,8 @@ function App() {
       <div className='app_itemsContainer'>
       <Opening
           backgroundImg={bg4}
-          
         />
-        <Item
+        <Ducky
           title='Rubber Ducky CLI'
           img={duckyCLI}
           desc="CLI to perform the popular practice of 'rubber duck debugging' within the terminal, replacing the need for a physical rubber ducky by one's computer."
@@ -36,9 +40,10 @@ function App() {
           rightBtnTxt='README'
           rightBtnLink='https://github.com/DesmondAldridge/rubber-ducky-cli/blob/main/README.md#rubber-ducky-cli---'
         />
-        <Item
+        <DailyPlanner
           title='Daily Planner'
-          desc='Scheduling app designed for a standard work day. It allows you to write and save entries for 8 available time slots (9 a.m. - 5 p.m.). The current hour is always highlighted and distinct from both upcoming and previous entries.'
+          img={dailyPlanner}
+          desc='Scheduling app for a standard work day (9am-5pm). The app allows you to write and save entries for 8 available time slots. The current hour is always highlighted and distinct from both upcoming and previous entries.'
           descLink=''
           backgroundImg={bg2}
           leftBtnTxt='CODE'
@@ -46,15 +51,10 @@ function App() {
           rightBtnTxt='DEMO'
           rightBtnLink='https://desmondaldridge.github.io/work-day-scheduler/'
         />
-        <Item
-          title='Readme Generator'
-          desc='CLI that generates a README file based on user input.'
+        <ReadmeGen
+          img={readmeGen}
           descLink=''
-          backgroundImg={bg3}
-          leftBtnTxt='CODE'
-          leftBtnLink='https://github.com/DesmondAldridge/readme-generator'
-          rightBtnTxt='DEMO'
-          rightBtnLink='https://drive.google.com/file/d/1QuzsCEA-r8YG5HxdSLXLc8NUn9di7rtY/view'
+          backgroundImg={bg3} 
         />
         <Item
           title='Trendr'

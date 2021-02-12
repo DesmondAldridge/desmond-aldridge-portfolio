@@ -1,12 +1,13 @@
 import { findAllByTitle } from '@testing-library/react';
 import React from 'react';
-import Button from "./Button"
-import './Item.css';
+import Button from './Button';
+import './Ducky.css';
 
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+// import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-const Item1 = ({
+const Ducky = ({
   title,
+  img,
   desc,
   backgroundImg,
   leftBtnTxt,
@@ -16,20 +17,20 @@ const Item1 = ({
 }) => {
   return (
     <div
-      className='item'
+      className='ducky'
       style={{
         backgroundImage: `url(${backgroundImg})`,
       }}
     >
-      <div className='item_container'>
-      <img className='img' src={img} alt=' '/>
-        <div className='item_text'>
+      <div className='ducky_container'>
+      <img className='ducky_img' src={img} alt=' '/>
+        <div className='ducky_text'>
         
           <p>{title}</p>
-          <div className='item_textDesc'>
+          <div className='ducky_textDesc'>
             <p>{desc}</p>
             </div>
-            <div className='item_buttons'>
+            <div className='ducky_buttons'>
             <Button text={leftBtnTxt} link={leftBtnLink} />
             <Button text={rightBtnTxt} link={rightBtnLink} />
             </div>
@@ -39,4 +40,4 @@ const Item1 = ({
   );
 };
 
-export default Item1;
+export default Ducky;

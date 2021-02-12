@@ -14,6 +14,7 @@
   width: 44vw;
   display: flex;
   flex-direction: column;
+  transform: rotate(-.1deg)
   /* align-items: center; */
 }
 .left_container {
@@ -35,9 +36,10 @@
   justify-content: center;
   justify-items: center;
 
-  margin-top: 42%;
+  margin-top: 41%;
 
-  transform: skew(-2.5deg, -0.15deg);
+  transform: skew(-1.5deg, -.1deg);
+
 }
 
 .opening_textDesc {
@@ -66,13 +68,9 @@
   margin-bottom: 3%;
 }
 
-.img_and_btn {
-  transform: skew(-0.5deg, -0.15deg);
-}
-
 .contactBtn {
   margin-top: 1.5%;
-  margin-left: 12%;
+  margin-left: 14%;
   display: flex;
   align-items: center;
   /* transform: skewY(.5deg); */
@@ -87,9 +85,10 @@
   margin-left: 21%;
   height: 16vh;
   width: 8vw;
+  transform: skew(.5deg, 1deg);
 }
 
 .instructions {
-  margin-top: 2%;
-  margin-left: 9.5%;
+  margin-top: 2.5%;
+  margin-left: 12%;
 }

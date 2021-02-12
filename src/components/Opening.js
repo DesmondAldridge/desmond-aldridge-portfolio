@@ -74,17 +74,13 @@ const Opening = ({ backgroundImg }) => {
                 link='https://calendly.com/desmondaldridge/30min'
               />
             </div>
+           
             <p className='instructions'>
               SCROLL DOWN TO VIEW SOME OF MY PROJECTS
             </p>
-          </div>
-          
+          </div>   
         </div>
-
-        
-        <img className='imgGif' src={Gif} alt=' ' />
-
-        
+        <img className='imgGif' src={Gif} alt=' ' />       
       </div>
     </div>
   );

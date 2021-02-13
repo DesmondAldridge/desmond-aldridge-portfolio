@@ -13,52 +13,120 @@
   width: 44vw;
   display: flex;
   flex-direction: column;
-  transform: rotate(-.1deg)
+  transform: rotate(-0.1deg);
 }
 .left_container {
-  margin-top: 6%;
+  margin-top: 4.5%;
   width: 50vw;
   display: flex;
   flex-direction: column;
 }
 
-.instructions {
-  margin-left: 30%;
-  margin-top: -20%;
+.icons {
+  height: 1vw;
+  width: 1vw;
 }
 
-.instructions>p {
+.floaty_gif {
+  /* margin-bottom: 4%; */
+  height: 10vw;
+  width: 10vw;
+  margin-left: 22%;
+}
+
+.instructions {
+  margin-left: 34%;
+  margin-top: -48%;
+
+  /* animation: fadeIn ease 12s;
+  -webkit-animation: fadeIn ease 12s;
+  -moz-animation: fadeIn ease 12s;
+  -o-animation: fadeIn ease 12s;
+  -ms-animation: fadeIn ease 12s; */
+
+  -webkit-animation: flickerAnimation 12s infinite;
+  -moz-animation: flickerAnimation 12s infinite;
+  -o-animation: flickerAnimation 12s infinite;
+  animation: flickerAnimation 12s infinite;
+}
+
+.instructions > p {
   font-size: 25px;
 }
 
-.imgGif {
-  margin-left: 19.5%;
-  height: 16vh;
-  width: 8vw;
-  transform: skew(.5deg, 1deg);
+@keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
+.imgGif {
+  margin-left: 25%;
+  height: 16vh;
+  width: 8vw;
+  transform: skew(0.5deg, 1deg);
+}
 
 .opening_text {
   display: flex;
   width: 30vw;
   flex-direction: column;
-  font-size: 30px;
+  font-size: 40px;
   color: #393c41;
   align-items: center;
   justify-content: center;
   justify-items: center;
 
-  margin-top: 41%;
+  margin-top: 44%;
+  margin-left: 9%;
 
-  transform: skew(-1.5deg, -.1deg);
-
+  transform: skew(-2deg, -.1deg);
 }
 
 .opening_textDesc {
   margin-top: 3%;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 24px;
+  text-align: center;
 }
 
 .list_header {
@@ -69,15 +137,15 @@
 }
 
 .frontend_list {
-  /* margin-left: 12%; */
+  margin-left: 1%;
   /* margin-bottom: 1%; */
 }
 .backend_list {
-  /* margin-left: 12%; */
+  margin-left: 1%;
   /* margin-bottom: 1%; */
 }
 .tech_list {
-  /* margin-left: 12%; */
+  margin-left: 1%;
   /* margin-bottom: 1%; */
 }
 
@@ -87,5 +155,3 @@
   display: flex;
   align-items: center;
 }
-
-

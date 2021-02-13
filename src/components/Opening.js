@@ -5,7 +5,12 @@ import LilHeader from './LilHeader';
 import LilBigHeader from './LilBigHeader';
 import Button from './Button';
 import Gif from '../assets/images/scroll-down.gif';
-import Gif1 from '../assets/images/projects.gif';
+import Gif1 from '../assets/images/computer.gif';
+
+import frontendIcon from '../assets/images/frontend.png';
+import backendIcon from '../assets/images/database.png';
+import devToolsIcon from '../assets/images/tools.png';
+
 import './Opening.css';
 
 // import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
@@ -19,14 +24,14 @@ const Opening = ({ backgroundImg }) => {
       }}
     >
       <div className='left_container'>
-
-      <div className='big_header'>
+        {/* <div className='big_header'>
           <LilBigHeader text='TECHNOLOGIES' />
-        </div>
+        </div> */}
         <div className='list_header'>
           <LilHeader text='FRONT-END' />
         </div>
         <div className='frontend_list'>
+        <img className='icons' src={frontendIcon} alt=' ' />
           <List text='React.js' />
           <List text='HTML5' />
           <List text='CSS3' />
@@ -40,6 +45,7 @@ const Opening = ({ backgroundImg }) => {
           <LilHeader text='BACK-END' />
         </div>
         <div className='backend_list'>
+        <img className='icons' src={backendIcon} alt=' ' />
           <List text='Node.js' />
           <List text='NPM' />
           <List text='Express' />
@@ -50,6 +56,7 @@ const Opening = ({ backgroundImg }) => {
           <LilHeader text='DEV TECH' />
         </div>
         <div className='tech_list'>
+        <img className='icons' src={devToolsIcon} alt=' ' />
           <List text='Git | GitHub' />
           <List text='VS Code' />
           <List text='Postman' />
@@ -61,12 +68,11 @@ const Opening = ({ backgroundImg }) => {
 
         {/* <div className='mid_container'> */}
         <div className='instructions'>
-        <img className='' src={Gif1} alt=' ' />
-          <p>SCROLL DOWN TO VIEW SOME OF MY PROJECTS</p>
+          <img className='floaty_gif' src={Gif1} alt=' ' />
+          <p>SCROLL DOWN TO VIEW SOME OF MY PROJECTS📒</p>
           <img className='imgGif' src={Gif} alt=' ' />
         </div>
         {/* </div> */}
-        
       </div>
       <div className='opening_container'>
         <div className='opening_text'>

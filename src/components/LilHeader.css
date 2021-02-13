@@ -7,14 +7,14 @@
     align-items: center;
     border-radius: 100px;
     opacity: 0.85;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 .lil_header>p{
     text-decoration: none;
     color:black;
     font-weight: 200;
-    font-size: 18px;
+    font-size: 25px;
     text-align: center;
 }
 

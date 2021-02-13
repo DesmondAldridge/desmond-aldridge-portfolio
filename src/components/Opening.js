@@ -2,8 +2,10 @@ import { findAllByTitle } from '@testing-library/react';
 import React from 'react';
 import List from './List';
 import LilHeader from './LilHeader';
+import LilBigHeader from './LilBigHeader';
 import Button from './Button';
 import Gif from '../assets/images/scroll-down.gif';
+import Gif1 from '../assets/images/projects.gif';
 import './Opening.css';
 
 // import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
@@ -17,6 +19,10 @@ const Opening = ({ backgroundImg }) => {
       }}
     >
       <div className='left_container'>
+
+      <div className='big_header'>
+          <LilBigHeader text='TECHNOLOGIES' />
+        </div>
         <div className='list_header'>
           <LilHeader text='FRONT-END' />
         </div>
@@ -52,6 +58,15 @@ const Opening = ({ backgroundImg }) => {
           <List text='Chrome DevTools' />
           <List text='Slack | Discord | Asana' />
         </div>
+
+        {/* <div className='mid_container'> */}
+        <div className='instructions'>
+        <img className='' src={Gif1} alt=' ' />
+          <p>SCROLL DOWN TO VIEW SOME OF MY PROJECTS</p>
+          <img className='imgGif' src={Gif} alt=' ' />
+        </div>
+        {/* </div> */}
+        
       </div>
       <div className='opening_container'>
         <div className='opening_text'>
@@ -61,8 +76,8 @@ const Opening = ({ backgroundImg }) => {
               I'm Desmond, a full stack web developer certified through
               University of Texas at Austin. Leveraging a 15 year professional
               background in the performing arts, I bring a creative outlook and
-              passion for collaboration to every project. I look forward to hearing
-              from you!
+              passion for collaboration to every project. I look forward to
+              hearing from you!
             </p>
             <div className='contactBtn'>
               <Button
@@ -74,13 +89,8 @@ const Opening = ({ backgroundImg }) => {
                 link='https://calendly.com/desmondaldridge/30min'
               />
             </div>
-           
-            <p className='instructions'>
-              SCROLL DOWN TO VIEW SOME OF MY PROJECTS
-            </p>
-          </div>   
+          </div>
         </div>
-        <img className='imgGif' src={Gif} alt=' ' />       
       </div>
     </div>
   );

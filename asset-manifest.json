@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.34f97def.chunk.css",
-    "main.js": "/static/js/main.0586a7b8.chunk.js",
-    "main.js.map": "/static/js/main.0586a7b8.chunk.js.map",
+    "main.css": "/static/css/main.1901a2d5.chunk.css",
+    "main.js": "/static/js/main.fb204e76.chunk.js",
+    "main.js.map": "/static/js/main.fb204e76.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5a7503e8.js",
     "runtime-main.js.map": "/static/js/runtime-main.5a7503e8.js.map",
     "static/js/2.c6006186.chunk.js": "/static/js/2.c6006186.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.3167918d.chunk.js": "/static/js/3.3167918d.chunk.js",
     "static/js/3.3167918d.chunk.js.map": "/static/js/3.3167918d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.34f97def.chunk.css.map": "/static/css/main.34f97def.chunk.css.map",
+    "static/css/main.1901a2d5.chunk.css.map": "/static/css/main.1901a2d5.chunk.css.map",
     "static/js/2.c6006186.chunk.js.LICENSE.txt": "/static/js/2.c6006186.chunk.js.LICENSE.txt",
     "static/media/DesLogo.32070e23.png": "/static/media/DesLogo.32070e23.png",
     "static/media/bg1.68e9c6ca.jpg": "/static/media/bg1.68e9c6ca.jpg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.5a7503e8.js",
     "static/js/2.c6006186.chunk.js",
-    "static/css/main.34f97def.chunk.css",
-    "static/js/main.0586a7b8.chunk.js"
+    "static/css/main.1901a2d5.chunk.css",
+    "static/js/main.fb204e76.chunk.js"
   ]
 }

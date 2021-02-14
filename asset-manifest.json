@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34f97def.chunk.css",
+    "main.js": "/static/js/main.0586a7b8.chunk.js",
+    "main.js.map": "/static/js/main.0586a7b8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5a7503e8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5a7503e8.js.map",
+    "static/js/2.c6006186.chunk.js": "/static/js/2.c6006186.chunk.js",
+    "static/js/2.c6006186.chunk.js.map": "/static/js/2.c6006186.chunk.js.map",
+    "static/js/3.3167918d.chunk.js": "/static/js/3.3167918d.chunk.js",
+    "static/js/3.3167918d.chunk.js.map": "/static/js/3.3167918d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.34f97def.chunk.css.map": "/static/css/main.34f97def.chunk.css.map",
+    "static/js/2.c6006186.chunk.js.LICENSE.txt": "/static/js/2.c6006186.chunk.js.LICENSE.txt",
+    "static/media/DesLogo.32070e23.png": "/static/media/DesLogo.32070e23.png",
+    "static/media/bg1.68e9c6ca.jpg": "/static/media/bg1.68e9c6ca.jpg",
+    "static/media/bg2.932d27a5.jpg": "/static/media/bg2.932d27a5.jpg",
+    "static/media/bg3.7d8e2212.jpg": "/static/media/bg3.7d8e2212.jpg",
+    "static/media/bg4.371c917c.jpg": "/static/media/bg4.371c917c.jpg",
+    "static/media/bg5.ba77673a.jpg": "/static/media/bg5.ba77673a.jpg",
+    "static/media/computer.e72f5511.gif": "/static/media/computer.e72f5511.gif",
+    "static/media/daily-planner.2d057f33.png": "/static/media/daily-planner.2d057f33.png",
+    "static/media/database.52ff175a.png": "/static/media/database.52ff175a.png",
+    "static/media/ducky-cli.7ff1bfc5.png": "/static/media/ducky-cli.7ff1bfc5.png",
+    "static/media/frontend.643df4ea.png": "/static/media/frontend.643df4ea.png",
+    "static/media/index.css": "/static/media/iCiel-Medium.b23bb62d.ttf",
+    "static/media/readme-generator.9223fcb9.png": "/static/media/readme-generator.9223fcb9.png",
+    "static/media/scroll-down.ce150e1e.gif": "/static/media/scroll-down.ce150e1e.gif",
+    "static/media/tools.761e84f3.png": "/static/media/tools.761e84f3.png",
+    "static/media/trendr-dash.7d43b4ec.png": "/static/media/trendr-dash.7d43b4ec.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a7503e8.js",
+    "static/js/2.c6006186.chunk.js",
+    "static/css/main.34f97def.chunk.css",
+    "static/js/main.0586a7b8.chunk.js"
+  ]
+}

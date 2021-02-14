@@ -34,9 +34,22 @@
   margin-left: 22%;
 }
 
+.mid_container{
+-webkit-animation: mover 1.5s infinite  alternate;
+    animation: mover 1.5s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-150px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-150px); }
+}
+
 .instructions {
   margin-left: 34%;
-  margin-top: -48%;
+  margin-top: -26%;
 
   /* animation: fadeIn ease 12s;
   -webkit-animation: fadeIn ease 12s;
@@ -44,15 +57,19 @@
   -o-animation: fadeIn ease 12s;
   -ms-animation: fadeIn ease 12s; */
 
-  -webkit-animation: flickerAnimation 12s infinite;
-  -moz-animation: flickerAnimation 12s infinite;
-  -o-animation: flickerAnimation 12s infinite;
-  animation: flickerAnimation 12s infinite;
+  -webkit-animation: flickerAnimation 10s infinite;
+  -moz-animation: flickerAnimation 10s infinite;
+  -o-animation: flickerAnimation 10s infinite;
+  animation: flickerAnimation 10s infinite;
+
+  
 }
 
 .instructions > p {
-  font-size: 25px;
+  font-size: 50px;
 }
+
+
 
 @keyframes flickerAnimation {
   0% {

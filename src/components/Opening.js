@@ -66,13 +66,13 @@ const Opening = ({ backgroundImg }) => {
           <List text='Slack | Discord | Asana' />
         </div>
 
-        {/* <div className='mid_container'> */}
+        <div className='mid_container'>
         <div className='instructions'>
-          <img className='floaty_gif' src={Gif1} alt=' ' />
-          <p>SCROLL DOWN TO VIEW SOME OF MY PROJECTS📒</p>
+          {/* <img className='floaty_gif' src={Gif1} alt=' ' /> */}
+          <p>SCROLL DOWN TO VIEW SOME OF MY PROJECTS</p>
           <img className='imgGif' src={Gif} alt=' ' />
         </div>
-        {/* </div> */}
+        </div>
       </div>
       <div className='opening_container'>
         <div className='opening_text'>

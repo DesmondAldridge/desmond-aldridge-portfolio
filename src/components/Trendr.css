@@ -1,4 +1,4 @@
-.dailyplanner {
+.trendr {
   height: 100vh;
   width: 100vw;
   background-position: center;
@@ -9,58 +9,48 @@
   scroll-snap-align: start;
 }
 
-.dp_container {
-  width: 40vw;
-  margin-left: 31.2%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.dp_right_container {
+.trendr_container {
   width: 40vw;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.dp_text {
+.trendr_text {
   display: flex;
-  width: 30vw;
+  width: 22.4vw;
   flex-direction: column;
   font-size: 30px;
   color: black;
   align-items: center;
-  flex: 1;
-  margin-top: 15%;
-  margin-left: .1%;
-  margin-right: .5%;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 25%;
 }
 
-.dp_textDesc {
+.trendr_textDesc {
   margin-top: 3%;
   font-weight: 200;
   font-size: 20px;
   margin-left: 3%;
 }
 
-.dp_buttons {
+.trendr_buttons {
   margin-top: 0.5%;
-  margin-left: 15%;
+  margin-left: 30%;
   display: flex;
   align-items: center;
 }
-
-
 
 p {
   margin-right: 10%;
 }
 
-.dp_img {
-  margin-top: 29.8%;
+.trendr_img {
+  margin-top: 17.5%;
+  margin-left: 110%;
+  height: 51.5vh;
+  width: 44.3vw;
 
-  height: 51.3vh;
-  width: 39.5vw;
-
-  transform: skew(-.1deg, -.2deg)
+  transform: rotate(-0.2deg);
 }

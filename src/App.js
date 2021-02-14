@@ -5,6 +5,7 @@ import Opening from './components/Opening';
 import Ducky from './components/Ducky';
 import DailyPlanner from './components/DailyPlanner';
 import ReadmeGen from './components/ReadmeGen';
+import Trendr from './components/Trendr';
 
 import bg1 from './assets/images/bg1.jpg';
 import bg2 from './assets/images/bg2.jpg';
@@ -15,6 +16,7 @@ import bg5 from './assets/images/bg5.jpg';
 import duckyCLI from './assets/images/ducky-cli.png';
 import dailyPlanner from './assets/images/daily-planner.png';
 import readmeGen from './assets/images/readme-generator.png';
+import trendrDash from './assets/images/trendr-dash.png'
 
 // import DuckyCLI from './assets/desktop-with-ducky.png';
 // import DailyPlanner from './assets/daily-planner.png';
@@ -56,14 +58,15 @@ function App() {
           descLink=''
           backgroundImg={bg3} 
         />
-        <Item
+        <Trendr
           title='Trendr'
+          img={trendrDash}
           desc="Trending topics aggregator, full-stack application. I was the lead and primary contributor for the app's backend."
           descLink=''
           backgroundImg={bg5}
           leftBtnTxt='CODE'
           leftBtnLink='https://github.com/paulmorales7/Trendr'
-          rightBtnTxt='DEMO'
+          rightBtnTxt='DEPLOYED'
           rightBtnLink='https://trendr-react.herokuapp.com/'
         />
       </div>

@@ -1,6 +1,6 @@
 import { findAllByTitle } from '@testing-library/react';
 import React from 'react';
-import Button from './Button';
+import Button2 from './Button2';
 import './ReadmeGen.css';
 
 // import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
@@ -22,8 +22,8 @@ const FloatingText = ({
             <p>{desc}</p>
             </div>
             <div className='rmg_buttons'>
-            <Button text={leftBtnTxt} link={leftBtnLink} />
-            <Button text={rightBtnTxt} link={rightBtnLink} />
+            <Button2 text={leftBtnTxt} link={leftBtnLink} />
+            <Button2 text={rightBtnTxt} link={rightBtnLink} />
             </div>
         </div>
       </div>

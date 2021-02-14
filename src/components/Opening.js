@@ -90,7 +90,7 @@ const Opening = ({ backgroundImg }) => {
                 link='mailto:desmondaldridge@gmail.com'
               />
               <Button
-                text='OR SCHEDULE A CHAT 📅'
+                text='SCHEDULE A CHAT 📅'
                 link='https://calendly.com/desmondaldridge/30min'
               />
             </div>

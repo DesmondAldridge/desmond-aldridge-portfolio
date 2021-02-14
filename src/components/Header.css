@@ -46,3 +46,18 @@
 .btn:hover {
   transform: scale(1.2, 1.2);
 }
+
+@media only screen and (max-width: 400px) {
+ .header_center{
+   margin-top: 20%;
+   margin-left: -75%;
+
+ }
+
+ .header_right {
+   position: absolute;
+   margin-top: 30%;
+   margin-left: 43%;
+ }
+
+}

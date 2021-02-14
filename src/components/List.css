@@ -18,4 +18,10 @@
 
 .btn:hover {
     transform: scale(1.2, 1.2);
-  }
+}
+
+@media only screen and (max-width: 400px) {
+    .list_item>p{
+        font-size: 8px;
+    }
+}

@@ -28,10 +28,9 @@ const Opening = ({ backgroundImg }) => {
           <LilBigHeader text='TECHNOLOGIES' />
         </div> */}
         <div className='list_header'>
-          <LilHeader text='FRONT-END' />
+          <LilHeader text='FRONT-END' img={frontendIcon}/>
         </div>
         <div className='frontend_list'>
-        <img className='icons' src={frontendIcon} alt=' ' />
           <List text='React.js' />
           <List text='HTML5' />
           <List text='CSS3' />
@@ -42,10 +41,9 @@ const Opening = ({ backgroundImg }) => {
           <List text='AJAX' />
         </div>
         <div className='list_header'>
-          <LilHeader text='BACK-END' />
+          <LilHeader text='BACK-END' img={backendIcon}/>
         </div>
         <div className='backend_list'>
-        <img className='icons' src={backendIcon} alt=' ' />
           <List text='Node.js' />
           <List text='NPM' />
           <List text='Express' />
@@ -53,17 +51,18 @@ const Opening = ({ backgroundImg }) => {
           <List text='MySQL' />
         </div>
         <div className='list_header'>
-          <LilHeader text='DEV TECH' />
+          <LilHeader text='DEV TOOLS' img={devToolsIcon}/>
         </div>
         <div className='tech_list'>
-        <img className='icons' src={devToolsIcon} alt=' ' />
           <List text='Git | GitHub' />
           <List text='VS Code' />
           <List text='Postman' />
           <List text='Heroku' />
           <List text='Oh My Zsh' />
-          <List text='Chrome DevTools' />
-          <List text='Slack | Discord | Asana' />
+          <List text='Chrome' />
+          <List text='Slack' />
+          <List text='Discord' />
+          <List text='Asana' />
         </div>
 
         <div className='mid_container'>

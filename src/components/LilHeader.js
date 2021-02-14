@@ -4,7 +4,7 @@ import './LilHeader.css';
 const LilHeader = ({ text , img}) => {
   return (
     <div className={'lil_header'}>
-      <p>{text}</p><img className='icons' src={img} alt=' ' />
+      <img className='icons' src={img} alt=' ' /><p>{text}</p>
     </div>
   );
 };

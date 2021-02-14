@@ -52,3 +52,37 @@ p {
   height: 44vh;
   width: 36vw;
 }
+
+@media only screen and (max-width: 400px) {
+  .ducky_img {
+    height: 200px;
+    width: 245px;
+    margin-top: 145%;
+    margin-left: -80%;
+  }
+  .ducky_text {
+    display: flex;
+    width: 30vw;
+    flex-direction: column;
+    font-size: 20px;
+    color: black;
+    align-items: center;
+    text-align: center;
+    margin-top: -130%;
+    margin-left: 170%;
+  }
+  
+  .ducky_textDesc {
+    margin-top: 3%;
+    font-weight: 200;
+    font-size: 10px;
+    margin-left: 3%;
+  }
+
+  .ducky_buttons {
+    /* margin-top: 0%; 
+    margin-right: 10%; */
+
+  }
+  
+}

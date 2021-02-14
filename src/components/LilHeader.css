@@ -17,10 +17,18 @@
     font-size: 23px;
     /* text-align: center; */
 }
+.lil_header>img{
+    height: 11%;
+    width: 11%;
+}
 
 @media only screen and (max-width: 400px) {
     .lil_header>p {
-        font-size: 8px;
+        font-size: 9px;
         margin-top: 0%;
+    }
+    .lil_header>img{
+        height: 6.5%;
+        width: 6.5%;
     }
 }

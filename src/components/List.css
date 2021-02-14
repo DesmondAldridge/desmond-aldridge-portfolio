@@ -4,7 +4,7 @@
     justify-items: center;
     align-items: center;
     border-radius: 100px;
-    opacity: 0.85;
+
 
 }
 
@@ -22,6 +22,6 @@
 
 @media only screen and (max-width: 400px) {
     .list_item>p{
-        font-size: 8px;
+        font-size: 7.5px;
     }
 }

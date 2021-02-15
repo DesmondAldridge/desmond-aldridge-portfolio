@@ -188,7 +188,7 @@
     text-align: center;
 
     margin-top: 145%;
-    margin-left: -300%;
+    margin-left: -293%;
 
     transform: skew(0deg, 0deg);
   }
@@ -201,7 +201,7 @@
   }
   .left_container {
     margin-top: 83%;
-    margin-left: 130%;
+    margin-left: 125%;
     width: 36vw;
     display: flex;
     flex-direction: column;
@@ -216,7 +216,7 @@
   .instructions {
     width: 120%;
     margin-left: -135%;
-    margin-top: 132%;
+    margin-top: 134%;
   }
 
   .instructions > p {

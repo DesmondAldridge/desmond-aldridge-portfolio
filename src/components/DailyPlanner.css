@@ -30,7 +30,6 @@
   font-size: 30px;
   color: black;
   align-items: center;
-  flex: 1;
   margin-top: 15%;
   margin-left: .1%;
   margin-right: .5%;
@@ -50,8 +49,6 @@
   align-items: center;
 }
 
-
-
 p {
   margin-right: 10%;
 }
@@ -64,3 +61,38 @@ p {
 
   transform: skew(-.1deg, -.2deg)
 }
+
+@media only screen and (max-width: 400px) {
+  .dp_text {
+    display: flex;
+    width: 30vw;
+    flex-direction: column;
+    font-size: 20px;
+    color: black;
+    align-items: center;
+    text-align: center;
+    margin-top: 75%;
+    margin-left: .1%;
+    margin-right: .5%;
+  }
+  
+  .dp_textDesc {
+    margin-top: 3%;
+    font-weight: 200;
+    font-size: 10px;
+    margin-left: 3%;
+  }
+
+  .dp_img {
+    margin-top: 180%;
+    margin-left: -75%;
+    height: 260px;
+    width: 240px;
+    transform: skew(0deg, 0deg)
+  }
+
+  .dp_buttons {
+    margin-left: 20%;
+  }
+}
+

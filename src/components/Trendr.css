@@ -51,6 +51,39 @@ p {
   margin-left: 110%;
   height: 51.5vh;
   width: 44.3vw;
-
   transform: rotate(-0.2deg);
+}
+
+@media only screen and (max-width: 400px) {
+  .trendr_text {
+    flex-direction: none;
+    margin-top: 134.5%;
+    z-index: 5;
+    width: 100%;
+    height: 112px;
+    font-size: 15px;
+    color: blueviolet;
+    background-color: pink;
+
+  }
+  .trendr_textDesc {
+    z-index: 5;
+    margin-top: 0%;
+    font-weight: 200;
+    font-size: 10px;
+  }
+  .trendr_buttons {
+    z-index: 5;
+    margin-right: 25%;
+    color: blueviolet;
+  }
+  .trendr_img {
+    z-index: 3;
+    margin-top: 132%;
+    margin-left: 153%;
+    height: 305px;
+    width: 377px;
+
+    transform: rotate(-0.2deg);
+  }
 }

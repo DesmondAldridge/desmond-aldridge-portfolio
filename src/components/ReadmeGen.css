@@ -81,7 +81,7 @@ p {
 @media only screen and (max-width: 400px) {
   .rmg_img {
     z-index: 3;
-    margin-top: 180%;
+    margin-top: 150%;
     margin-left: 24%;
     height: 350px;
     width: 383px;

@@ -13,8 +13,6 @@ import devToolsIcon from '../assets/images/tools.png';
 
 import './Opening.css';
 
-// import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-
 const Opening = ({ backgroundImg }) => {
   return (
     <div
@@ -24,9 +22,6 @@ const Opening = ({ backgroundImg }) => {
       }}
     >
       <div className='left_container'>
-        {/* <div className='big_header'>
-          <LilBigHeader text='TECHNOLOGIES' />
-        </div> */}
         <div className='list_header'>
           <LilHeader text='FRONT-END' img={frontendIcon}/>
         </div>
@@ -67,7 +62,6 @@ const Opening = ({ backgroundImg }) => {
 
         <div className='mid_container'>
         <div className='instructions'>
-          {/* <img className='floaty_gif' src={Gif1} alt=' ' /> */}
           <p>SCROLL DOWN TO VIEW SOME OF MY PROJECTS</p>
           <img className='imgGif' src={Gif} alt=' ' />
         </div>

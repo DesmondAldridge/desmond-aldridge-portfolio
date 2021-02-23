@@ -187,17 +187,16 @@
     justify-items: center;
     text-align: center;
 
-    margin-top: 145%;
-    margin-left: -293%;
+    margin-top: 120%;
+    margin-left: -260%;
 
     transform: skew(0deg, 0deg);
   }
   .opening_textDesc {
     width: 100%;
-    margin-top: 5%;
+    margin-top: 10%;
     font-weight: 200;
     font-size: 15px;
-    /* text-align: center; */
   }
   .left_container {
     margin-top: 83%;
@@ -207,7 +206,7 @@
     flex-direction: column;
   }
   .contactBtn {
-    margin-top: 6%;
+    margin-top: 10%;
     margin-left: 6%;
     display: flex;
     align-items: center;
@@ -215,12 +214,12 @@
 
   .instructions {
     width: 120%;
-    margin-left: -135%;
-    margin-top: 134%;
+    margin-left: -60%;
+    margin-top: 5%;
   }
 
   .instructions > p {
-    font-size: 15px;
+    font-size: 12px;
   }
   @-webkit-keyframes mover {
     0% {
@@ -242,13 +241,19 @@
     height: 25%;
     width: 25%;
   }
+  .list_header{
+    display: none;
+  }
   .frontend_list {
     margin-left: 7%;
+    display: none;
   }
   .backend_list {
     margin-left: 7%;
+    display: none;
   }
   .tech_list {
     margin-left: 7%;
+    display: none;
   }
 }

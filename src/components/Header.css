@@ -57,7 +57,12 @@
  .header_right {
    position: absolute;
    margin-top: 30%;
-   margin-left: 43%;
+   margin-left: 50%;
+ }
+
+ .header_right > a {
+  margin: 8%;
+  font-size: 12px;
  }
 
 }

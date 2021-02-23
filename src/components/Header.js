@@ -24,7 +24,6 @@ const Header = () => {
     </div>
   );
 };
-{/* <a className="btn" href="../assets/Desmond Aldridge - 2021.pdf" download='Desmond Aldridge - 2021.pdf'>RESUME</a> */}
 
 
 export default Header;

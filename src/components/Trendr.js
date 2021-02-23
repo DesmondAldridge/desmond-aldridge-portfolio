@@ -1,6 +1,6 @@
 import { findAllByTitle } from '@testing-library/react';
 import React from 'react';
-import Button from './Button';
+import Button3 from './Button3';
 import './Trendr.css';
 
 // import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
@@ -27,14 +27,15 @@ const Trendr = ({
       <img className='trendr_img' src={img} alt=' '/>
       </div>
         <div className='trendr_text'>
-        
-          <p>{title}</p>
+        <div className='trendr_title'>
+        <p>{title}</p>
+        </div>
           <div className='trendr_textDesc'>
             <p>{desc}</p>
             </div>
             <div className='trendr_buttons'>
-            <Button text={leftBtnTxt} link={leftBtnLink} />
-            <Button text={rightBtnTxt} link={rightBtnLink} />
+            <Button3 text={leftBtnTxt} link={leftBtnLink} />
+            <Button3 text={rightBtnTxt} link={rightBtnLink} />
             </div>
         </div>
       

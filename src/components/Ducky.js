@@ -23,7 +23,7 @@ const Ducky = ({
       }}
     >
       <div className='ducky_container'>
-      {/* <img className='ducky_img' src={img} alt=' '/> */}
+      <img className='ducky_img' src={img} alt=' '/>
         <div className='ducky_text'>
         
           <p>{title}</p>

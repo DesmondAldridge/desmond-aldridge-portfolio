@@ -14,7 +14,7 @@ const ReadmeGen = ({ img, backgroundImg }) => {
       }}
     >
       <div className='rmg_container'>
-        {/* <img className='rmg_img' src={img} alt='Readme Generator' /> */}
+        <img className='rmg_img' src={img} alt='Readme Generator' />
       </div>
       <FloatingText
         title='Readme Generator'

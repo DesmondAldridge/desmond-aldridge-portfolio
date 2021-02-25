@@ -23,7 +23,7 @@ const DailyPlanner = ({
       }}
     >
       <div className='dp_container'>
-      {/* <img className='dp_img' src={img} alt='Daily Planner'/> */}
+      <img className='dp_img' src={img} alt='Daily Planner'/>
       </div>
       
         <div className='dp_text'>

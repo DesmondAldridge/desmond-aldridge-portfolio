@@ -18,7 +18,7 @@
 
 .trendr_text {
   display: flex;
-  width: 22.4vw;
+  /* width: 22.4vw; */
   flex-direction: column;
   font-size: 30px;
   color: black;
@@ -49,23 +49,19 @@ p {
 .trendr_img {
   margin-top: 17.5%;
   margin-left: 110%;
-  height: 51.5vh;
-  width: 44.3vw;
-  transform: rotate(-0.2deg);
+  /* height: 51.5vh;
+  width: 44.3vw; */
+  /* transform: rotate(-0.2deg); */
 }
 
 @media only screen and (max-width: 400px) {
+
   .trendr_text {
-    flex-direction: none;
-    margin-top: 42%;
-    margin-left: -40%;
-    z-index: 5;
-    width: 100%;
-    height: 68vw;
-    font-size: 15px;
-    color: blueviolet;
-    background-color: pink;
+    margin-top: 100%;
+    margin-left: 0%;
+    margin-right: 10%;
   }
+  
   .trendr_title {
     margin-top: 10%;
     font-size: 25px;
@@ -80,16 +76,13 @@ p {
   .trendr_buttons {
     z-index: 5;
     margin-top: 5%;
-    margin-right: 32%;
+    margin-right: 28%;
   }
   .trendr_img {
-    display: none;
     z-index: 3;
-    margin-top: 132%;
-    margin-left: 153%;
-    height: 305px;
-    width: 377px;
-
-    transform: rotate(-0.2deg);
+    margin-top: 300%;
+    margin-left: 650%;
+    height: 35%;
+    width: 700%;
   }
 }

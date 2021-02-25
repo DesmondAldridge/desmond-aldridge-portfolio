@@ -23,9 +23,7 @@
   font-size: 30px;
   color: #393c41;
   align-items: center;
-  flex: 1;
-  margin-top: -45%;
-  margin-left: 175%;
+  margin-top: 3%;
 }
 
 .ducky_textDesc {
@@ -49,16 +47,17 @@ p {
 .ducky_img {
   margin-top: 16%;
   margin-right: 6%;
-  height: 44vh;
-  width: 36vw;
+  /* height: 44vh;
+  width: 36vw; */
 }
 
 @media only screen and (max-width: 400px) {
   .ducky_img {
-    height: 58vw;
-    width: 96vw;
-    margin-top: 102%;
-    margin-left: -5%;
+    height: 36%;
+    width: 200%;
+    margin-top: 112%;
+    margin-right: 0%;
+
   }
   .ducky_text {
     display: flex;
@@ -68,8 +67,7 @@ p {
     color: black;
     align-items: center;
     text-align: center;
-    margin-top: 105%;
-    margin-left: 12%;
+    margin-top: 16%;
   }
   
   .ducky_textDesc {

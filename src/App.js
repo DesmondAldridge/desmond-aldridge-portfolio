@@ -35,7 +35,7 @@ function App() {
         />
         <Ducky
           title='Rubber Ducky CLI'
-          // img={duckyCLI}
+          img={duckyCLI}
           desc="CLI to perform the popular practice of 'rubber duck debugging' within the terminal, replacing the need for a physical rubber ducky by one's computer."
           descLink=''
           backgroundImg={blue}
@@ -46,7 +46,7 @@ function App() {
         />
         <DailyPlanner
           title='Daily Planner'
-          // img={dailyPlanner}
+          img={dailyPlanner}
           desc='Scheduling app for a standard work day (9am-5pm). The app allows you to write and save entries for 8 available time slots. The current hour is always highlighted and distinct from both upcoming and previous entries.'
           descLink=''
           backgroundImg={blue}
@@ -56,13 +56,13 @@ function App() {
           rightBtnLink='https://desmondaldridge.github.io/work-day-scheduler/'
         />
         <ReadmeGen
-          // img={readmeGen}
+          img={readmeGen}
           descLink=''
           backgroundImg={blue} 
         />
         <Trendr
           title='Trendr'
-          // img={trendrDash}
+          img={trendrDash}
           desc="Trending topics aggregator, full-stack application. I was the lead and primary contributor for the app's backend."
           descLink=''
           backgroundImg={blue}

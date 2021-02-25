@@ -74,19 +74,19 @@ p {
   margin-left: 24%;
   height: 60vh;
   width: 45.5vw;
-
-  transform: rotate(.05deg)
+/* 
+  transform: rotate(.05deg) */
 }
 
 @media only screen and (max-width: 400px) {
   .rmg_img {
     z-index: 3;
-    margin-top: 150%;
+    margin-top: 120%;
     margin-left: 24%;
     height: 350px;
     width: 383px;
   
-    transform: rotate(-.5deg)
+    /* transform: rotate(-.5deg) */
   }
   .rmg_text {
   display: flex;
@@ -96,7 +96,7 @@ p {
 
   align-items: center;
   text-align: center;
-  margin-top: 200%;
+  margin-top: 155%;
   margin-right: 375%;
   }
   .rmg_textDesc {

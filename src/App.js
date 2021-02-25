@@ -7,6 +7,8 @@ import DailyPlanner from './components/DailyPlanner';
 import ReadmeGen from './components/ReadmeGen';
 import Trendr from './components/Trendr';
 
+import blue from './assets/images/light-blue.jpg';
+
 import bg1 from './assets/images/bg1.jpg';
 import bg2 from './assets/images/bg2.jpg';
 import bg3 from './assets/images/bg3.jpg';
@@ -29,14 +31,14 @@ function App() {
       <Header />
       <div className='app_itemsContainer'>
       <Opening
-          backgroundImg={bg4}
+          backgroundImg={blue}
         />
         <Ducky
           title='Rubber Ducky CLI'
-          img={duckyCLI}
+          // img={duckyCLI}
           desc="CLI to perform the popular practice of 'rubber duck debugging' within the terminal, replacing the need for a physical rubber ducky by one's computer."
           descLink=''
-          backgroundImg={bg1}
+          backgroundImg={blue}
           leftBtnTxt='GITHUB'
           leftBtnLink='https://github.com/DesmondAldridge/rubber-ducky-cli'
           rightBtnTxt='README'
@@ -44,26 +46,26 @@ function App() {
         />
         <DailyPlanner
           title='Daily Planner'
-          img={dailyPlanner}
+          // img={dailyPlanner}
           desc='Scheduling app for a standard work day (9am-5pm). The app allows you to write and save entries for 8 available time slots. The current hour is always highlighted and distinct from both upcoming and previous entries.'
           descLink=''
-          backgroundImg={bg2}
+          backgroundImg={blue}
           leftBtnTxt='CODE'
           leftBtnLink='https://github.com/DesmondAldridge/work-day-scheduler'
           rightBtnTxt='DEMO'
           rightBtnLink='https://desmondaldridge.github.io/work-day-scheduler/'
         />
         <ReadmeGen
-          img={readmeGen}
+          // img={readmeGen}
           descLink=''
-          backgroundImg={bg3} 
+          backgroundImg={blue} 
         />
         <Trendr
           title='Trendr'
-          img={trendrDash}
+          // img={trendrDash}
           desc="Trending topics aggregator, full-stack application. I was the lead and primary contributor for the app's backend."
           descLink=''
-          backgroundImg={bg5}
+          backgroundImg={blue}
           leftBtnTxt='CODE'
           leftBtnLink='https://github.com/paulmorales7/Trendr'
           rightBtnTxt='DEPLOYED'

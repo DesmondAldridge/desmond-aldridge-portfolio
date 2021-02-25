@@ -1,15 +1,16 @@
 import React from 'react';
 import './Header.css';
-import DesLogo from '../assets/images/DesLogo.png';
+import DesLogo from '../assets/images/des-logo.png';
 import styled from 'styled-components';
 import Typing from './Typing';
 
 const Header = () => {
   return (
     <div className='header'>
-      <div className='header_logo'>
+      {/* <div className='header_logo'> */}
         <img src={DesLogo} alt='Des Logo' />
-      </div>
+        <span>DESMOND ALDRIDGE</span>
+      {/* </div> */}
 
       <div className='header_center'>
       <div className='move_box'><Typing /></div>

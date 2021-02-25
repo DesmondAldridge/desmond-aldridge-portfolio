@@ -21,6 +21,30 @@ const Opening = ({ backgroundImg }) => {
         backgroundImage: `url(${backgroundImg})`,
       }}
     >
+    <div className='opening_container'>
+        <div className='opening_text'>
+          <p>Welcome to my online portfolio!</p>
+          <div className='opening_textDesc'>
+            <p>
+              I'm Desmond, a full stack web developer certified through
+              University of Texas at Austin. Leveraging a 15 year professional
+              background in the performing arts, I bring a creative outlook and
+              passion for collaboration to every project. I look forward to
+              hearing from you!
+            </p>
+            <div className='contactBtn'>
+              <Button
+                text='SEND ME AN EMAIL 📨'
+                link='mailto:desmondaldridge@gmail.com'
+              />
+              <Button
+                text='SCHEDULE A CHAT 📅'
+                link='https://calendly.com/desmondaldridge/30min'
+              />
+            </div>
+          </div>
+        </div>
+      </div>
       <div className='left_container'>
         <div className='list_header'>
           <LilHeader text='FRONT-END' img={frontendIcon}/>
@@ -66,31 +90,8 @@ const Opening = ({ backgroundImg }) => {
           <img className='imgGif' src={Gif} alt=' ' />
         </div>
         </div>
-      </div>
-      <div className='opening_container'>
-        <div className='opening_text'>
-          <p>Welcome to my online portfolio!</p>
-          <div className='opening_textDesc'>
-            <p>
-              I'm Desmond, a full stack web developer certified through
-              University of Texas at Austin. Leveraging a 15 year professional
-              background in the performing arts, I bring a creative outlook and
-              passion for collaboration to every project. I look forward to
-              hearing from you!
-            </p>
-            <div className='contactBtn'>
-              <Button
-                text='SEND ME AN EMAIL 📨'
-                link='mailto:desmondaldridge@gmail.com'
-              />
-              <Button
-                text='SCHEDULE A CHAT 📅'
-                link='https://calendly.com/desmondaldridge/30min'
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+        
+      </div>    
     </div>
   );
 };

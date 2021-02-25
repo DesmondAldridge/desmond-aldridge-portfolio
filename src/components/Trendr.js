@@ -24,7 +24,7 @@ const Trendr = ({
     >
     
     <div className='trendr_container'>
-      <img className='trendr_img' src={img} alt=' '/>
+      {/* <img className='trendr_img' src={img} alt=' '/> */}
       </div>
         <div className='trendr_text'>
         <div className='trendr_title'>

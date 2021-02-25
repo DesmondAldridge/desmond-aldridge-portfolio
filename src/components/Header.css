@@ -9,7 +9,15 @@
   z-index: 100;
 }
 
-.header_logo {
+.header > span {
+  margin-left: .3%;
+  margin-top: 1%;
+  font-size: 30px;
+  /* text-align: center;
+  align-items: center; */
+ }
+
+img {
 
   margin-left: 0.3%;
 }

@@ -26,7 +26,7 @@ const Opening = ({ backgroundImg }) => {
           <p>Welcome to my online portfolio!</p>
           <div className='opening_textDesc'>
             <p>
-              I'm Desmond, a full stack web developer certified through
+              I'm Desmond, a full stack web developer with a certification through
               University of Texas at Austin. Leveraging a 15 year professional
               background in the performing arts, I bring a creative outlook and
               passion for collaboration to every project. I look forward to
